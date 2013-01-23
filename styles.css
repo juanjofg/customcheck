@@ -1,0 +1,53 @@
+fieldset {
+	width: 46%;
+	display: block;
+	margin: 0 1%;
+}
+
+fieldset p {
+	position: relative;
+}
+input[type=checkbox],
+input[type=radio]{
+	/*opacity: 0;*/
+}
+.customCheck, .customRadio {
+	background: url(ckrd.png) no-repeat -34px -33px;/* default check state */
+	width: 5px;
+	height: 7px;
+	padding: 5px 7px;
+	display: inline-block;
+}
+.customRadio {
+	background-position: -34px -62px;/* default radio state */
+}
+.hoverchk {
+	background-position: -9px -33px;/* checkbox:hover state */
+}
+.hoverrd {
+	background-position: -9px -62px;/* radio:hover state */
+}
+.chk {
+	background-position: -109px -3px;/* checkbox:checked state */
+}
+.chkrd {
+	background-position: -109px -62px;/* radio:checked state */
+}
+.chk.hoverchk {
+	background-position: -84px -3px;/* checkbox:checked:hover state */
+}
+.chkrd.hoverrd {
+	background-position: -84px -62px;/* radio:checked:hover; state */
+}
+.checkboxdisabled {
+	background-position: -59px -33px;/* checkbox:disabled */
+}
+.checkeddisabled {
+	background-position: -134px -3px;/* checkbox:checked:disabled */
+}
+.radiodisabled {
+	background-position: -59px -62px;/* radio:disabled */
+}
+.radiocheckeddisabled {
+	background-position: -134px -62px;/* radio:checked:disabled */	
+}
