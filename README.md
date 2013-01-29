@@ -12,3 +12,5 @@ Establece 5 estados para cada elemento
 - checked:hover
 - disabled
 - disabled:checked
+
+This is a jQuery plugin, so it´s the only requirement. At least, 1.8.2.
