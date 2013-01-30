@@ -1,11 +1,15 @@
+body {
+	font: normal 12px 'Source Sans Pro', sans-serif;
+}
 fieldset {
-	width: 46%;
+	width: 250px;
 	display: block;
-	margin: 0 1%;
+	margin: 0 auto;
 }
 
-fieldset p {
-	position: relative;
+fieldset div {
+	
+	padding-left: 20px;
 }
 input[type=checkbox],
 input[type=radio]{

@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="es">
 	<meta charset="utf-8">
 	<head>
 		<title>Plugin</title>
-
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 
-		<h1>mi plugin</h1>
+		<h1>Custom checkbox &amp; radio</h1>
 
-		<div>Hola mundo cruel y pluginero.</div>
 		<form action="#">
 			<fieldset class='radio-fld'>
 				<legend>Mis radiobuttons</legend>
@@ -54,5 +54,8 @@
 		
 		<script src="jquery-1.8.2.min.js"></script>
 		<script src="jquery.customcheck.js"></script>
+		<script>
+			$('form').customInputs();
+		</script>
 	</body>
 </html>

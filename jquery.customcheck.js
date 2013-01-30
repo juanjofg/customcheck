@@ -1,3 +1,7 @@
+/*---------------------------------------------
+* juanjofg custom checkboxes and radio buttons
+* v 0.2
+---------------------------------------------*/
 //Custom checkbox & radio button
 ;(function($, doc, win){
 	"use strict";
@@ -93,5 +97,3 @@
 		});
 	};
 })(jQuery, document, window);
-
-$('form').customInputs({ optionA:'a', optionB: 'b'});
