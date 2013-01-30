@@ -1,4 +1,4 @@
-Custom checkboxes and radio buttons plug-in for jquery
+<h1>Custom checkboxes and radio buttons plug-in for jquery</h1>
 
 
 Funcionalidad básica incluida.
@@ -14,7 +14,7 @@ Establece 6 estados para cada elemento
 
 This is a jQuery plugin, so it´s the only requirement. At least, 1.8.2.
 
-Cómo utilizarlo
+<h2>Cómo utilizarlo</h2>
 
 Incluir jquery.js (1.8.2) y jquery.customcheck.js en la cabecera (HEAD) de tu documento html:
 
