@@ -6,21 +6,18 @@ fieldset {
 	display: block;
 	margin: 0 auto;
 }
-
 fieldset div {
 	
 	padding-left: 20px;
 }
-input[type=checkbox],
-input[type=radio]{
-	/*opacity: 0;*/
-}
+/* plugin styles */
 .customCheck, .customRadio {
 	background: url(ckrd.png) no-repeat -34px -33px;/* default check state */
 	width: 5px;
 	height: 7px;
 	padding: 5px 7px;
 	display: inline-block;
+	vertical-align: top;
 }
 .customRadio {
 	background-position: -34px -62px;/* default radio state */
