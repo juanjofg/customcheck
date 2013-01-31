@@ -84,7 +84,7 @@
 			if ($(this).is(':checked')){
 				$(this).prev('i').addClass('chkrd');
 
-				$('input[name=' + rdname + ']').not($(this)).each(function(){
+				$('input[name="' + rdname + '"]').not($(this)).each(function(){
 					$(this).prev('i').removeClass('chkrd hoverrd hoverrdon');
 				});
 			}

@@ -6,7 +6,11 @@ Qué hace
 --------
 
 Sustituye los controles originales.
-Establece 6 estados para cada elemento
+
+Establece 6 estados para cada elemento.
+
+Soporte atributos <code>_name_</code> que incluyan punto (<code>_name_=&quot;with.dot&quot;</code>)
+
 * unchecked
 * unchecked:hover
 * checked
@@ -21,7 +25,7 @@ Es un plugin jQuery, así que necesitas jQuery (testeado con 1.8.2)
 Cómo utilizarlo
 ---------------
 
-Incluir jquery.js (1.8.2) y jquery.customcheck.js en la cabecera (<code>$lt;head&gt;</code>) de tu documento html:
+Incluir jquery.js (1.8.2) y jquery.customcheck.js en la cabecera (<code>&lt;head&gt;</code>) de tu documento html:
 
 <pre>
 	<code>
