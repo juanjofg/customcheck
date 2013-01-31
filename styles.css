@@ -23,6 +23,7 @@ fieldset div {
 	height: 7px;
 	padding: 5px 7px;
 	display: inline-block;
+    vertical-align: top;
     _padding: 3px 7px 0;
 }
 * html {

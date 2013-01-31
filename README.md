@@ -1,20 +1,25 @@
-<h1>Custom checkboxes and radio buttons plug-in for jquery</h1>
+Custom checkboxes and radio buttons plug-in for jquery
+======================================================
 
 
-Funcionalidad básica incluida.
+Qué hace
+--------
 
 Sustituye los controles originales.
 Establece 6 estados para cada elemento
-- unchecked
-- unchecked:hover
-- checked
-- checked:hover
-- disabled
-- disabled:checked
+* unchecked
+* unchecked:hover
+* checked
+* checked:hover
+* disabled
+* disabled:checked
 
-This is a jQuery plugin, so it´s the only requirement. At least, 1.8.2.
+Dependencias
+------------
+Es un plugin jQuery, así que necesitas jQuery (testeado con 1.8.2)
 
-<h2>Cómo utilizarlo</h2>
+Cómo utilizarlo
+---------------
 
 Incluir jquery.js (1.8.2) y jquery.customcheck.js en la cabecera (HEAD) de tu documento html:
 
@@ -36,3 +41,12 @@ Utiliza tu selector preferido y aplica el plugin:
 	&lt;/script&gt;
 	</code>
 </pre>
+
+Navegadores
+-----------
+* Chrome
+* Firefox
+* Opera
+* Safari
+* >IE9
+* <IE9 (pensando en ello)
