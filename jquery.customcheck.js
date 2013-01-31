@@ -1,6 +1,6 @@
 /*---------------------------------------------
 * juanjofg custom checkboxes and radio buttons
-* v 0.2
+* v 0.3
 ---------------------------------------------*/
 //Custom checkbox & radio button
 ;(function($, doc, win){
@@ -31,8 +31,10 @@
 	function currentState (elem){
 		if ( $(elem).is(':checked') && $(elem).is(':disabled') ){
 			$(elem).prev('i').addClass('checkeddisabled');
-		} else if ($(elem).is(':checked')){
+		} else if ($(elem).is(':checked') && $(elem).is(':checkbox')){
 			$(elem).prev('i').addClass('chk');
+		} else if ($(elem).is(':checked') && $(elem).is(':radio')){
+			$(elem).prev('i').addClass('chkrd');
 		} else if ($(elem).is(':disabled')){
 			$(elem).prev('i').addClass('checkboxdisabled');
 		}

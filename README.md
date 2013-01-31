@@ -21,7 +21,7 @@ Es un plugin jQuery, así que necesitas jQuery (testeado con 1.8.2)
 Cómo utilizarlo
 ---------------
 
-Incluir jquery.js (1.8.2) y jquery.customcheck.js en la cabecera (HEAD) de tu documento html:
+Incluir jquery.js (1.8.2) y jquery.customcheck.js en la cabecera (<code>$lt;head&gt;</code>) de tu documento html:
 
 <pre>
 	<code>
@@ -37,7 +37,9 @@ Utiliza tu selector preferido y aplica el plugin:
 <pre>
 	<code>
 	&lt;script&gt;
-		$('form').customInputs();
+		$(function(){
+			$('form').customInputs();
+		});
 	&lt;/script&gt;
 	</code>
 </pre>
@@ -48,5 +50,4 @@ Navegadores
 * Firefox
 * Opera
 * Safari
-* >IE9
-* <IE9 (pensando en ello)
+* =>IE7
