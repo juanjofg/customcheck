@@ -8,12 +8,14 @@ fieldset {
 }
 
 fieldset div {
-	
 	padding-left: 20px;
 }
-input[type=checkbox],
-input[type=radio]{
-	/*opacity: 0;*/
+.customCheckOrig, .customRadioOrig {
+	opacity: 0;
+    filter: alpha(opacity=0);
+    margin-left: -20px;
+    width: 19px;
+    height: 17px;
 }
 .customCheck, .customRadio {
 	background: url(ckrd.png) no-repeat -34px -33px;/* default check state */
@@ -21,6 +23,10 @@ input[type=radio]{
 	height: 7px;
 	padding: 5px 7px;
 	display: inline-block;
+    _padding: 3px 7px 0;
+}
+* html {
+    filter: expression(document.execCommand("BackgroundImageCache", false, true)); /* IE6 Bg flickering fix */
 }
 .customRadio {
 	background-position: -34px -62px;/* default radio state */
@@ -37,10 +43,10 @@ input[type=radio]{
 .chkrd {
 	background-position: -109px -62px;/* radio:checked state */
 }
-.chk.hoverchk {
+.hoverchkon {
 	background-position: -84px -3px;/* checkbox:checked:hover state */
 }
-.chkrd.hoverrd {
+.hoverrdon {
 	background-position: -84px -62px;/* radio:checked:hover; state */
 }
 .checkboxdisabled {
